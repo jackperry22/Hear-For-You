@@ -14,6 +14,7 @@
 		2835CE2A204F888B006286BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2835CE28204F888B006286BD /* LaunchScreen.storyboard */; };
 		2835CE35204F888B006286BD /* Hear_for_youTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835CE34204F888B006286BD /* Hear_for_youTests.swift */; };
 		2835CE40204F888B006286BD /* Hear_for_youUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835CE3F204F888B006286BD /* Hear_for_youUITests.swift */; };
+		2835CE50204F8A8E006286BD /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835CE4F204F8A8E006286BD /* RecordingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2835CE3B204F888B006286BD /* Hear for youUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hear for youUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2835CE3F204F888B006286BD /* Hear_for_youUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear_for_youUITests.swift; sourceTree = "<group>"; };
 		2835CE41204F888B006286BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2835CE4F204F8A8E006286BD /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2835CE13204F888B006286BD = {
 			isa = PBXGroup;
 			children = (
+				2835CE4F204F8A8E006286BD /* RecordingViewController.swift */,
 				2835CE1E204F888B006286BD /* Hear for you */,
 				2835CE33204F888B006286BD /* Hear for youTests */,
 				2835CE3E204F888B006286BD /* Hear for youUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2835CE22204F888B006286BD /* ViewController.swift in Sources */,
+				2835CE50204F8A8E006286BD /* RecordingViewController.swift in Sources */,
 				2835CE20204F888B006286BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
